@@ -7,11 +7,11 @@ require "BasicEngine/version"
 Gem::Specification.new do |s|
   s.name        = "BasicEngine"
   s.version     = BasicEngine::VERSION
-  s.authors     = ["TODO: Your name"]
-  s.email       = ["TODO: Your email"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of BasicEngine."
-  s.description = "TODO: Description of BasicEngine."
+  s.authors     = ["Mike Robinson"]
+  s.email       = ["asd@asd.com"]
+  s.homepage    = "http:///google.com"
+  s.summary     = "Summary of BasicEngine."
+  s.description = "Description of BasicEngine."
 
   s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.rdoc"]
   s.test_files = Dir["test/**/*"]
